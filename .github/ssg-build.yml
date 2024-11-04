@@ -4,7 +4,7 @@ name: SSG Build to Deploy
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v2
       # cache the dependencies from any node_modules directory
       - name: Cache dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: |
             **/node_modules
@@ -28,9 +28,14 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npx nullstack build --mode=ssg --output=docs
+       env:
+          NULLSTACK_PROJECT_NAME: 'sales-page'
+          NULLSTACK_PROJECT_DOMAIN: 'tipscode2.github.io/sales-page/'
+          NULLSTACK_PROJECT_COLOR: '#D22365'
 
-      - name: Send to Github
+        run: npx nullstack build --mode=ssg
+
+      - name: Deploy
         run: |
           git branch gh-pages -f
           git checkout gh-pages
