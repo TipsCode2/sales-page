@@ -4,16 +4,16 @@ name: SSG Build to Deploy
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+
       # cache the dependencies from any node_modules directory
       - name: Cache dependencies
         uses: actions/cache@v3
@@ -25,23 +25,18 @@ jobs:
           key: node_modules-${{ hashFiles('**/package.json') }}
 
       - name: Install deps
-        run: npm install
+        run: yarn
 
       - name: Build
-       env:
+        env:
           NULLSTACK_PROJECT_NAME: 'sales-page'
-          NULLSTACK_PROJECT_DOMAIN: 'tipscode2.github.io/sales-page/'
+          NULLSTACK_PROJECT_DOMAIN: 'tipscode2.github.io/sales-page'
           NULLSTACK_PROJECT_COLOR: '#D22365'
+          NULLSTACK_PROJECT_CDN: '/sales-page'
+        run: yarn build --mode=ssg
 
-        run: npx nullstack build --mode=ssg
-
-      - name: Deploy
-        run: |
-          git branch gh-pages -f
-          git checkout gh-pages
-          touch ./docs/.nojekyll
-          git add docs -f
-          git config --global user.name "NullstackDeployer"
-          git config --global user.email "nullstack@deployer.ci"
-          git commit -m ":rocket: New SSG Build"
-          git push -u origin gh-pages -f
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+          branch: master
+          folder: ssg
