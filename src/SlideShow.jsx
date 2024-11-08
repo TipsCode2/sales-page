@@ -38,8 +38,8 @@ class SlideShow extends Nullstack {
         </div>
 
         <div class="arrow-right">
-            <img onclick={this.previewSlider} src="/arrow-right-svgrepo-com.svg" alt="" style="transform: rotate(3.142rad);" />
-            <img onclick={this.nextSlider} src="/arrow-right-svgrepo-com.svg" alt="" />
+            <img onclick={this.previewSlider} src="./arrow-right-svgrepo-com.svg" alt="" style="transform: rotate(3.142rad);" />
+            <img onclick={this.nextSlider} src="./arrow-right-svgrepo-com.svg" alt="" />
         </div>
         
         <div class="slider">
