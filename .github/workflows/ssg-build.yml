@@ -33,6 +33,7 @@ jobs:
           NULLSTACK_PROJECT_DOMAIN: 'tipscode2.github.io/sales-page'
           NULLSTACK_PROJECT_COLOR: '#D22365'
           NULLSTACK_WORKER_CDN: '/sales-page'
+          NULLSTACK_WORKER_ENABLED: ''
         run: yarn build
 
       - name: Deploy 🚀

@@ -8,4 +8,6 @@ context.start = async function start() {
   // https://nullstack.app/pt-br/inicializacao-da-aplicacao
 }
 
+context.worker.enabled = false
+
 export default context
