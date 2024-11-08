@@ -32,8 +32,8 @@ jobs:
           NULLSTACK_PROJECT_NAME: 'sales-page'
           NULLSTACK_PROJECT_DOMAIN: 'tipscode2.github.io/sales-page'
           NULLSTACK_PROJECT_COLOR: '#D22365'
-          NULLSTACK_PROJECT_CDN: '/sales-page'
-        run: yarn build --mode=ssg
+          NULLSTACK_WORKER_CDN: '/sales-page'
+        run: yarn build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3
