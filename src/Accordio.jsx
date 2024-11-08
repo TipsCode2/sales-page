@@ -49,8 +49,8 @@ export default Accordio
 //       </div>
 
 //       <div class="images-block">
-//           <img src="/vscode.png" alt="html tipscode"/>
-//           <img src="/Chrome.png" alt="css tipscode"/>
+//           <img src="./vscode.png" alt="html tipscode"/>
+//           <img src="./Chrome.png" alt="css tipscode"/>
 //       </div>
 //   </div>
 // </div>

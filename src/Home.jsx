@@ -20,7 +20,7 @@ class Home extends Nullstack {
 
         <header>
             <div class="logo">
-                <img src="/tipscode-logo.webp" alt="logo da tipscode" />
+                <img src="./tipscode-logo.webp" alt="logo da tipscode" />
             </div>
 
             <nav>
@@ -50,7 +50,7 @@ class Home extends Nullstack {
             </nav>
 
             <a href="https://api.whatsapp.com/send/?phone=5588999073834&text=Estou+vindo+do+site%21&type=phone_number&app_absent=0" target="_blank" class="wpp-btn">
-                <img src="/wpp-icon.png" alt="WhatsApp Icon" />
+                <img src="./wpp-icon.png" alt="WhatsApp Icon" />
 
                 <span class="call">
                     Chamar
@@ -85,27 +85,27 @@ class Home extends Nullstack {
         <div class="col"></div>
         <div class="col">
             <div class="video">
-                <video autoplay muted plays-inline loop src="/video-test.mp4" class="clip" type="mp4"></video>
+                <video autoplay muted plays-inline loop src="./video-test.mp4" class="clip" type="mp4"></video>
             </div>
         </div>
         </section>
 
         <div class="marquee">
           <div class="text-wrapper">
-              <img src="/HTML.png" alt="html logo" />
-              <img src="/CSS.png" alt="css logo"/>
-              <img src="/BOOTSTRAP.png" alt="bootstrap logo"/>
-              <img src="/JAVASCRIPT.png" alt="javascript logo"/>
-              <img src="/REACT.JS.png" alt="react js logo"/>
-              <img src="/NODE.JS.png" alt="node js logo"/>
-              <img src="/EXPRESS.JS.png" alt="express js logo"/>
-              <img src="/EJS.png" alt="ejs logo"/>
-              <img src="/SQL.png" alt="sql logo"/>
-              <img src="/MONGODB.png" alt="mongo db logo"/>
-              <img src="/MONGOOSE.png" alt="mongoose logo"/>
-              <img src="/GIT.png" alt="git logo"/>
-              <img src="/GITHUB.png" alt="github logo"/>
-              <img src="/TERMINAL LINUX.png" alt="linux logo"/>
+              <img src="./HTML.png" alt="html logo" />
+              <img src="./CSS.png" alt="css logo"/>
+              <img src="./BOOTSTRAP.png" alt="bootstrap logo"/>
+              <img src="./JAVASCRIPT.png" alt="javascript logo"/>
+              <img src="./REACT.JS.png" alt="react js logo"/>
+              <img src="./NODE.JS.png" alt="node js logo"/>
+              <img src="./EXPRESS.JS.png" alt="express js logo"/>
+              <img src="./EJS.png" alt="ejs logo"/>
+              <img src="./SQL.png" alt="sql logo"/>
+              <img src="./MONGODB.png" alt="mongo db logo"/>
+              <img src="./MONGOOSE.png" alt="mongoose logo"/>
+              <img src="./GIT.png" alt="git logo"/>
+              <img src="./GITHUB.png" alt="github logo"/>
+              <img src="./TERMINAL LINUX.png" alt="linux logo"/>
           </div>
         </div>
 
@@ -136,14 +136,14 @@ class Home extends Nullstack {
         <div class="col"></div>
 
         <div class="col">
-            <img src="/mais-sobre-o-turbo.png" alt="o motor do full stack turbo" />
+            <img src="./mais-sobre-o-turbo.png" alt="o motor do full stack turbo" />
         </div>
         </section>
         
         <section class="step-by-step" id="metodo">
 
           <div class="col">
-              <img src="/img-step-by-step.png" alt="Sobre o método step-by-step" />
+              <img src="./img-step-by-step.png" alt="Sobre o método step-by-step" />
           </div>
 
           <div class="col"></div>
@@ -311,13 +311,13 @@ class Home extends Nullstack {
 
           <div class="cordeon" id="accordion">
              
-              <Accordio number='1' title="Introdução" content="Um belo texto explicativo com algumas poucas palavras" src1='/vscode.png' alt1="VsCode" src2='/Chrome.png' alt2='Chrome' />
-              <Accordio number='2' title="Web design" content="Um belo texto explicativo com algumas poucas palavras" src1='/BOOTSTRAP.png' alt1="Bootstrap" src2='/CSS.png' alt2='CSS3' src3="/HTML.png" alt3="HTML5" />
-              <Accordio number='3' title="Front-End" content="Um belo texto explicativo com algumas poucas palavras" src1='/JAVASCRIPT.png' alt1="javascript" src2='/REACT.JS.png' alt2='Reactjs' />
-              <Accordio number='4' title="Back-End" content="Um belo texto explicativo com algumas poucas palavras" src1='/NODE.JS.png' alt1="Nodejs" src2='/EJS.png' alt2='EJS' src3="/EXPRESS.JS.png" alt3="Expressjs" />
-              <Accordio number='5' title="Banco de Dados" content="Um belo texto explicativo com algumas poucas palavras" src1='/SQL.png' alt1="SQL" src2='/MONGODB.png' alt2='MongoDb' src3="/MONGOOSE.png" alt3="Mongoose" />
-              <Accordio number='6' title="Ferramentas Dev" content="Um belo texto explicativo com algumas poucas palavras" src1='/GIT.png' alt1="Git" src2='/GITHUB.png' alt2='Github' src3="/terminal-linux.png" alt3="Terminal Linux" />
-              <Accordio number='7' title="Bônus" content="Um belo texto explicativo com algumas poucas palavras" src1='/google-logo.png' alt1="google" src2='https://avatar.iran.liara.run/public/1' alt2='engenheiro facebook tipscode' src3="/fb-logo.png" alt3="Facebook" />
+              <Accordio number='1' title="Introdução" content="Um belo texto explicativo com algumas poucas palavras" src1='./vscode.png' alt1="VsCode" src2='./Chrome.png' alt2='Chrome' />
+              <Accordio number='2' title="Web design" content="Um belo texto explicativo com algumas poucas palavras" src1='./BOOTSTRAP.png' alt1="Bootstrap" src2='./CSS.png' alt2='CSS3' src3="./HTML.png" alt3="HTML5" />
+              <Accordio number='3' title="Front-End" content="Um belo texto explicativo com algumas poucas palavras" src1='./JAVASCRIPT.png' alt1="javascript" src2='./REACT.JS.png' alt2='Reactjs' />
+              <Accordio number='4' title="Back-End" content="Um belo texto explicativo com algumas poucas palavras" src1='./NODE.JS.png' alt1="Nodejs" src2='./EJS.png' alt2='EJS' src3="./EXPRESS.JS.png" alt3="Expressjs" />
+              <Accordio number='5' title="Banco de Dados" content="Um belo texto explicativo com algumas poucas palavras" src1='./SQL.png' alt1="SQL" src2='./MONGODB.png' alt2='MongoDb' src3="./MONGOOSE.png" alt3="Mongoose" />
+              <Accordio number='6' title="Ferramentas Dev" content="Um belo texto explicativo com algumas poucas palavras" src1='./GIT.png' alt1="Git" src2='./GITHUB.png' alt2='Github' src3="./terminal-linux.png" alt3="Terminal Linux" />
+              <Accordio number='7' title="Bônus" content="Um belo texto explicativo com algumas poucas palavras" src1='./google-logo.png' alt1="google" src2='https://avatar.iran.liara.run/public/1' alt2='engenheiro facebook tipscode' src3="./fb-logo.png" alt3="Facebook" />
           </div>
         </section>
 
@@ -338,7 +338,7 @@ class Home extends Nullstack {
             <div class="mentor-name-mobile">
                 ALISSON <br /> SUASSUNA
             </div>
-            <img src="/mentor.png" alt="Alisson Suassuna da TipsCode" />
+            <img src="./mentor.png" alt="Alisson Suassuna da TipsCode" />
         </div>
         <div class="mentor-content">
             <div class="divisor">
