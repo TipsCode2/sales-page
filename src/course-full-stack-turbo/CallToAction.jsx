@@ -55,7 +55,7 @@ export default function CallToAction() {
                         <li><span>.</span> comunidade Exclusiva no Discord</li>
                     </ul>
 
-                    <img src="/logos-cartões.png" alt="cartões de crédito" />
+                    <img src="./logos-cartões.png" alt="cartões de crédito" />
                 </div>
 
                 <button class="btn-s">

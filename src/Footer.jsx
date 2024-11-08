@@ -44,16 +44,16 @@ class Footer extends Nullstack {
 
                         <div class="social-links">
                             <a href="https://www.youtube.com/@tipscode" target="_blank">
-                                <img class="s-yt" src="/youtube-168-svgrepo-com.svg" alt="link youtube tipscode" />
+                                <img class="s-yt" src="./youtube-168-svgrepo-com.svg" alt="link youtube tipscode" />
                             </a>
                             <a href="https://www.instagram.com/tipscodeoficial" target="_blank">
-                                <img class="s-gr" src="/instagram-logo-fill-svgrepo-com.svg" alt="link instagram tipscode" />
+                                <img class="s-gr" src="./instagram-logo-fill-svgrepo-com.svg" alt="link instagram tipscode" />
                             </a>
                             <a href="https://www.tiktok.com/@tipscodeoficial" target="_blank">
-                                <img class="s-tt" src="/tiktok-svgrepo-com.svg" alt="link tiktok tipscode" />
+                                <img class="s-tt" src="./tiktok-svgrepo-com.svg" alt="link tiktok tipscode" />
                             </a>
                             <a href="https://www.linkedin.com/company/tipscode/" target="_blank">
-                                <img class="s-in" src="/linkedin-161-svgrepo-com.svg" alt="link linkedin tipscode" />
+                                <img class="s-in" src="./linkedin-161-svgrepo-com.svg" alt="link linkedin tipscode" />
                             </a>
                         </div>
                     </div>
@@ -61,14 +61,14 @@ class Footer extends Nullstack {
                     <div class="blog">
                         <h4>Notícias</h4>
                         <a href="https://tipscode.com.br/artigos">
-                            <img src="/blog-svgrepo-com.svg" alt="blog tipscode icon" />
+                            <img src="./blog-svgrepo-com.svg" alt="blog tipscode icon" />
                             <span>Blog TipsCode</span>
                         </a>
                     </div>
                     <div class="contato">
                         <h4>Contato</h4>
                         <a href="mailto:suporte@tipscode.com.br">
-                            <img src="/email-svgrepo-com.svg" alt="blog tipscode icon" />
+                            <img src="./email-svgrepo-com.svg" alt="blog tipscode icon" />
                             <span>suporte@tipscode.com.br</span>
                         </a>
                     </div>
