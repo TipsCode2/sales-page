@@ -35,7 +35,7 @@
 
 @font-face {
     font-family: "KUBO";
-    src: url('/font/KUBO.otf');
+    src: url('./font/KUBO.otf');
 }
 
 * {
@@ -297,7 +297,7 @@ a.wpp-btn .call {
 /* HERO DESKTOP */
 
 section.hero {
-    background-image: url('/image-bg-hero-01.png');
+    background-image: url('./image-bg-hero-01.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -700,7 +700,7 @@ section.pq-fazer .col {
 
 /*ACESSO DESKTOP*/
 section.acesso {
-    background-image: url('/Background-Turbo.png');
+    background-image: url('./Background-Turbo.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1104,27 +1104,27 @@ section#depoimentos {
 }
 
 #slide-01 .img-card {
-    background-image: url('/deps/Depoente\ 5.png');
+    background-image: url('./deps/Depoente\ 5.png');
 }
 
 #slide-02 .img-card {
-    background-image: url('/deps/Depoente\ 11.png');
+    background-image: url('./deps/Depoente\ 11.png');
 }
 
 #slide-03 .img-card {
-    background-image: url('/deps/Depoente\ 6.png');
+    background-image: url('./deps/Depoente\ 6.png');
 }
 
 #slide-04 .img-card {
-    background-image: url('/deps/Depoente\ 10.png');
+    background-image: url('./deps/Depoente\ 10.png');
 }
 
 #slide-05 .img-card {
-    background-image: url('/deps/Depoente\ 9.png');
+    background-image: url('./deps/Depoente\ 9.png');
 }
 
 #slide-06 .img-card {
-    background-image: url('/deps/Depoente\ 8.png');
+    background-image: url('./deps/Depoente\ 8.png');
 }
 
 .slide-card .dep-card {
