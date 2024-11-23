@@ -26,7 +26,7 @@ class Home extends Nullstack {
             <nav>
                 <ul>
                     <li>
-                        <a href="#sobre">Curso</a>
+                        <a href="#sobre">Cursooo</a>
                     </li>
                     <li>
                         <a href="#metodo">Método</a>
