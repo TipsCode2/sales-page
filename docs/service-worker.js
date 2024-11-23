@@ -5,10 +5,13 @@ self.context = {
     "development": false,
     "production": true,
     "mode": "ssg",
-    "key": "244a3a7b9150a7865147c8bf3f39778473f2c229",
+    "key": "1682195cd950da1b45c62660a55842d153ccbb69",
     "name": ""
   },
   "project": {
+    "domain": "tipscode2.github.io/sales-page",
+    "name": "sales-page",
+    "color": "#D22365",
     "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
     "type": "website",
     "display": "standalone",

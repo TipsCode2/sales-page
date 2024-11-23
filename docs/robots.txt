@@ -1,3 +1,3 @@
 User-Agent: *
 Allow: /
-Sitemap: https://undefined/sitemap.xml
+Sitemap: https://tipscode2.github.io/sales-page/sitemap.xml
